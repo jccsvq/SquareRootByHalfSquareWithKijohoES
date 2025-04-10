@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="tutor/sorobanblue.jpeg">
+<title>Tutor de raíz cuadrada</title>
+<script language="JavaScript" src="./tutor/sbs-SP.js"></script>
+</script>
+<style>
+body {background-color: DarkCyan;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body onLoad="document.input.text.focus();">
+<h1>Tutor de raíz cuadrada</h1>
+<p>
+  <form name="input" onsubmit="main();return false;">
+  <input type="text" name="text" value="" id="expression" size="12" autocomplete="off">
+  <input type="button" value="Seguir" onclick="main();">
+  <input type="button" value="Limpiar" onclick="resetAll();">
+  <textarea id="displayArea" rows="25" cols="100" style="font-family:Monaco, monospace"></textarea>
+  </form>
+</p>
+</body>
+</html>
