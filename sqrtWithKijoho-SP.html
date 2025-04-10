@@ -9,19 +9,20 @@
 </script>
 <style>
 body {background-color: DarkCyan;}
-h1   {color: blue;}
-p    {color: red;}
+h1   {color: Navy;}
+p    {color: Yellow;}
 </style>
 </head>
 <body onLoad="document.input.text.focus();">
-<h1>Tutor de raíz cuadrada</h1>
+<h1>Tutor de raíz cuadrada con Kijohou</h1>
 <p>
   <form name="input" onsubmit="main();return false;">
   <input type="text" name="text" value="" id="expression" size="12" autocomplete="off">
-  <input type="button" value="Seguir" onclick="main();">
-  <input type="button" value="Limpiar" onclick="resetAll();">
+  <input type="button" value="Avanzar" onclick="main();">
+  <input type="button" value="Reiniciar" onclick="resetAll();"><br>
   <textarea id="displayArea" rows="25" cols="100" style="font-family:Monaco, monospace"></textarea>
   </form>
 </p>
+<p>Traducido de la <a target="_Blank" href="https://mmurak.github.io/SquareRootByHalfSquareWithKijoho/sqrtWithKijoho.html">versión original</a> de Masaaki Murakami.</p>
 </body>
 </html>
