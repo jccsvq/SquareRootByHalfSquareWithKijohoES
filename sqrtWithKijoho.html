@@ -6,8 +6,14 @@
 <title>tutor</title>
 <script language="JavaScript" src="./tutor/sbs.js"></script>
 </script>
+<style>
+body {background-color: DarkCyan;}
+h1   {color: Navy;}
+p    {color: Yellow;}
+</style>
 </head>
 <body onLoad="document.input.text.focus();">
+<h1>Square Root Tutor with Kijohou</h1>
 <p>
   <form name="input" onsubmit="main();return false;">
   <input type="text" name="text" value="" id="expression" size="12" autocomplete="off">
@@ -16,5 +22,6 @@
   <textarea id="displayArea" rows="25" cols="100" style="font-family:Monaco, monospace"></textarea>
   </form>
 </p>
+<p><a target="_Blank" href="https://mmurak.github.io/SquareRootByHalfSquareWithKijoho/sqrtWithKijoho.html">versión original</a> by Masaaki Murakami.</p>
 </body>
 </html>
